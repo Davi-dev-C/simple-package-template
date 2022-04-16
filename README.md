@@ -1,27 +1,26 @@
-# package_name
+# passgr
 
 Description. 
-The package package_name is used to:
-	- 
-	-
+The package passgr is used to:
+	- generate passwords
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install passgr
 
 ```bash
-pip install image_processing2
+pip install passgr
 ```
 
 ## Usage
 
 ```python
-from image_processing2 import file1_name
-file1_name.my_function()
+from passgr import pass_generator
+pass_generator.gpass()
 ```
 
 ## Author
-DaviLima
+Davi H.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
