@@ -7,14 +7,14 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="package_name",
+    name="passgr",
     version="0.0.1",
-    author="my_name",
-    author_email="my_email",
-    description="My short description",
+    author="davi h.",
+    author_email="davi.henrique.lima01@gmail.com",
+    description="A simple password generator",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
+    url="my_github_repository_project_link",
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.8',
